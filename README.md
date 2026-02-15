@@ -1,20 +1,13 @@
 # Hi 👋, I'm Sharath Chandra Reddy Muthyam
-
 ### 🚀 Software Engineer | Distributed Systems & AI Infrastructure | MS AI @ UNT (4.0 GPA)
 
----
+🔭 I'm currently working on **scalable backend services and distributed data pipelines**
 
-🔭 I'm currently working on **scalable LLM inference platforms and async data pipelines**
+🌱 I'm currently learning **large-scale systems design, distributed consensus, and cloud-native architecture**
 
-🌱 I'm currently learning **LLM optimization, GPU inference efficiency, and large-scale systems design**
+👯 I'm looking to collaborate on **backend services, distributed systems, and data pipeline infrastructure**
 
-👯 I'm looking to collaborate on **AI infrastructure, model serving systems, and high-performance backend services**
-
-💬 Ask me about **distributed systems, Kafka pipelines, Kubernetes deployments, LLM inference, FastAPI**
-
-📫 Reach me at **SharathChandraReddyMuthyam@my.unt.edu**
-
-📍 Based in **San Francisco, CA**
+💬 Ask me about **FastAPI, Kafka, Kubernetes, PostgreSQL, distributed systems, async Python**
 
 ---
 
@@ -45,25 +38,24 @@
 ---
 
 ### 📌 Featured Projects
+#### 🔧 Distributed Task Orchestrator
+> Python · Kafka · Redis · PostgreSQL · Docker · Kubernetes
+- Building a distributed task scheduling and execution engine with fault-tolerant worker nodes
+- Kafka-based task queue with dead-letter handling and guaranteed at-least-once delivery
+- Redis for distributed locking and worker heartbeat monitoring
+- Horizontal scaling via Kubernetes with auto-recovery on node failure
 
-#### ⚡ LLM Inference Serving Platform
-> TensorFlow Serving · FastAPI · Docker · Kubernetes · A/B Testing
-- Production-grade LLM inference infrastructure with <100ms latency
-- A/B testing framework for zero-downtime model rollouts
-- Automated Kubernetes deployment pipelines
-
-#### 🔄 Real-Time Async Inference Pipeline
+#### ⚡ Real-Time Async Data Pipeline
 > Kafka · Python · PostgreSQL · Redis · AWS
 - Processes 1000+ events/sec with <100ms end-to-end latency
 - Fault-tolerant consumer groups with 0% data loss
-- Auto-scaling on AWS for variable inference demand
+- Auto-scaling on AWS for variable load
 
-#### 🌐 High-Throughput Model Serving API
+#### 🌐 High-Throughput REST API Service
 > FastAPI · PostgreSQL · Redis · Kubernetes · Prometheus
-- Handles 10K+ concurrent connections at sub-50ms response times
+- Handles 10K+ concurrent connections with sub-50ms response times
 - 3x throughput improvement via Redis caching
 - Full Prometheus observability stack
-
 ---
 
 ### 📊 GitHub Stats
