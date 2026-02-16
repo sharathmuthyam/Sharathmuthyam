@@ -60,7 +60,7 @@
 
 ### 📊 GitHub Stats
 
-![Sharath's GitHub stats](github-readme-stats-one-phi-35.vercel.app/api?username=sharathmuthyam)
+![Sharath's GitHub stats](https://github-readme-stats-one-phi-35.vercel.app/api?username=sharathmuthyam)
 ![Top Languages](https://github-readme-stats-one-phi-35.vercel.app/api/top-langs/?username=sharathmuthyam&layout=compact&theme=tokyonight)
 ---
 
