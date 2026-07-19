@@ -1,69 +1,71 @@
-# Hi 👋, I'm Sharath Chandra Reddy Muthyam
-### 🚀 Software Engineer | Distributed Systems & AI Infrastructure | MS AI @ UNT (4.0 GPA)
+# Hi, I'm Sharath Chandra Reddy Muthyam 👋
 
-🔭 I'm currently working on **scalable backend services and distributed data pipelines**
+### Data Analytics Intern @ Tennant Company · MS in AI, University of North Texas (4.0 GPA)
 
-🌱 I'm currently learning **large-scale systems design, distributed consensus, and cloud-native architecture**
+I build data pipelines and AI-powered extraction systems that turn unstructured data (PDFs, documents, logs) into structured, queryable data — the kind that feeds dashboards, databases, and downstream ML.
 
-👯 I'm looking to collaborate on **backend services, distributed systems, and data pipeline infrastructure**
-
-💬 Ask me about **FastAPI, Kafka, Kubernetes, PostgreSQL, distributed systems, async Python**
+- 🔭 Currently building document-intelligence pipelines: OCR + vision-LLM extraction + multi-source reconciliation
+- 🌱 Learning: Azure Document Intelligence, large-scale data pipeline architecture
+- 💬 Ask me about: Python, SQL, LLM-based extraction pipelines, RAG, data pipeline design
+- 📫 [LinkedIn](https://www.linkedin.com/in/sharath2/)
 
 ---
 
 ### 🛠️ Tech Stack
 
-**Languages**
+**Languages & Data**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-
-**AI & Inference**
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-
-**Infrastructure & Cloud**
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-
-**Databases**
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+
+**AI / ML**
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat&logo=anthropic&logoColor=white)
+
+**Pipelines & Infra**
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 
 ---
 
 ### 📌 Featured Projects
-#### 🔧 Distributed Task Orchestrator
-> Python · Kafka · Redis · PostgreSQL · Docker · Kubernetes
-- Building a distributed task scheduling and execution engine with fault-tolerant worker nodes
-- Kafka-based task queue with dead-letter handling and guaranteed at-least-once delivery
-- Redis for distributed locking and worker heartbeat monitoring
-- Horizontal scaling via Kubernetes with auto-recovery on node failure
 
-#### ⚡ Real-Time Async Data Pipeline
-> Kafka · Python · PostgreSQL · Redis · AWS
-- Processes 1000+ events/sec with <100ms end-to-end latency
-- Fault-tolerant consumer groups with 0% data loss
-- Auto-scaling on AWS for variable load
+**[pdf-doc-intelligence-pipeline](https://github.com/sharathmuthyam/pdf-doc-intelligence-pipeline)**
+Structured metadata extraction from technical-manual PDFs: a cheap regex/OCR pass first, a Claude vision-LLM pass only for fields text alone can't resolve, and an explicit merge-cardinality policy (FILL_ONCE / REPLACE / APPEND) to reconcile fields read across multiple pages.
 
-#### 🌐 High-Throughput REST API Service
-> FastAPI · PostgreSQL · Redis · Kubernetes · Prometheus
-- Handles 10K+ concurrent connections with sub-50ms response times
-- 3x throughput improvement via Redis caching
-- Full Prometheus observability stack
+**[ml-model-registry](https://github.com/sharathmuthyam/ml-model-registry)**
+ML model registry with versioning, S3-backed artifact storage, Kafka-based async processing, and per-model cost tracking.
+
+**[distributed-task-orchestrator](https://github.com/sharathmuthyam/distributed-task-orchestrator)**
+Async task processing engine: FastAPI + Redis priority queues + PostgreSQL, with a self-healing reconciler for stuck/failed jobs. Docker + Kubernetes.
+
+**[FAISS_Storing_and_Searching](https://github.com/sharathmuthyam/FAISS_Storing_and_Searching)**
+RAG pipeline for embedding, storing, and searching documents with FAISS.
+
+**[NETWORK-STATE-HANDLING (Kafka/PSQL/Datadog)](https://github.com/sharathmuthyam/NETWORK-STATE-HANDLING---KAFKA-PSQL-DATADOG-K2)**
+Real-time network device state pipeline: Kafka producer/consumer, PostgreSQL storage, Datadog dashboards.
+
+**[DL-PROJECT- (Sentiment Analysis)](https://github.com/sharathmuthyam/DL-PROJECT-)**
+Sentiment analysis using BERT and BiLSTM deep learning models.
+
+**[Amazon-sales-analysis](https://github.com/sharathmuthyam/Amazon-sales-analysis)**
+Exploratory data analysis of Amazon sales data — trend analysis and visualization with pandas and matplotlib.
+
 ---
 
 ### 📊 GitHub Stats
 
-![Sharath's GitHub stats](https://github-readme-stats-one-phi-35.vercel.app/api?username=sharathmuthyam)
+![Sharath's GitHub stats](https://github-readme-stats-one-phi-35.vercel.app/api?username=sharathmuthyam&show_icons=true&theme=tokyonight)
 ![Top Languages](https://github-readme-stats-one-phi-35.vercel.app/api/top-langs/?username=sharathmuthyam&layout=compact&theme=tokyonight)
+
 ---
 
-### 🤝 Connect with me
+### 🤝 Connect
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sharath2/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/sharathmuthyam)
